@@ -1,0 +1,171 @@
+{
+    "alldata": [{
+            "userId": "112113",
+            "name": "Amara",
+            "avatar": "assets/images/userHeaders/user_1.png",
+            "userDescription": "A 28-year-old community organizer from Barcelona, Amara uses photography to document human resilience. Her ENFJ traits shine through her themed photo series about elderly artisans, blending portraits with workplace details. She hosts monthly \"Empathy Lens\" workshops encouraging photographers to capture underrepresented stories.",
+            "photo": "assets/images/photos/1.png",
+            "photoDescription": "Golden-hour shot of a wrinkled potter's hands shaping clay on a kick wheel, terracotta dust suspended in sunbeams. The composition focuses on texture contrast between aged skin and smooth ceramic, symbolizing legacy through shallow depth-of-field."
+        },
+        {
+            "userId": "213123",
+            "name": "Hana",
+            "avatar": "assets/images/userHeaders/user_2.png",
+            "userDescription": "This 33-year-old mechanical engineer-turned-adventure photographer from Hokkaido embraces ISTP logic through extreme sports documentation. She developed a waterproof drone mount to film herself ice climbing frozen waterfalls. Her analytics-driven approach tracks shutter speed/altitude correlations.",
+            "photo": "assets/images/photos/2.jpg",
+            "photoDescription": "Wide-angle vertigo-inducing POV shot from 80m up an azure glacial column. Crampons dig into brittle ice formations resembling shattered glass, the valley below reduced to abstract green-and-white geometry through fisheye distortion."
+        },
+        {
+            "userId": "311312",
+            "name": "Leila",
+            "avatar": "assets/images/userHeaders/user_3.png",
+            "userDescription": "A 24-year-old poetry student from Marrakech, Leila's INFP idealism manifests in her \"Urban Haiku\" project. She captures fleeting moments between strangers - a shared umbrella, overlapping shadows - then writes micro-stories about their imagined connections.",
+            "photo": "assets/images/photos/3.png",
+            "photoDescription": "Black-and-white silhouette of two commuters' brief hand contact while reaching for the same subway pole. Motion blur emphasizes urgency, while their linked shadows form a heart shape on the platform tiles."
+        },
+        {
+            "userId": "413123",
+            "name": "Kiran",
+            "avatar": "assets/images/userHeaders/user_4.png",
+            "userDescription": "This 31-year-old robotics researcher from Bangalore uses ENTPs love for patterns to create AI-assisted \"Synesthesiascapes\". His algorithm converts urban sound frequencies into color gradients, which he photographs through prismatic filters during monsoons.",
+            "photo": "assets/images/photos/4.png",
+            "photoDescription": "Long exposure of rain-soaked market alley where turmeric powder explosions (yellow), honking rickshaws (red LED trails), and prayer bells (silver streaks) merge into abstract auditory-visual collage after dark."
+        },
+        {
+            "userId": "565667",
+            "name": "Elias",
+            "avatar": "assets/images/userHeaders/user_5.png",
+            "userDescription": "A 45-year-old hospice nurse from Oslo, Elias channels ISFJ nurturance into \"Final Light\" portraits. Patients choose meaningful locations; he combines their portrait with embedded UV-reactive ink showing their heartbeat rhythm during the session.",
+            "photo": "assets/images/photos/5.png",
+            "photoDescription": "Double exposure of elderly woman smiling in her rose garden, overlaid with her pulsating ECG pattern glowing in bioluminescent blue. Petals appear suspended mid-fall around her wheelchair like halted time."
+        },
+        {
+            "userId": "612389",
+            "name": "Dante",
+            "avatar": "assets/images/userHeaders/user_6.jpeg",
+            "userDescription": "This 29-year-old ex-military survival instructor from Chile embodies ESTP daring through volcano photography. Using modified anti-radiation gear, he captures erupting calderas from <1km distance. His \"Lava Language\" series documents ephemeral magma formations.",
+            "photo": "assets/images/photos/6.png",
+            "photoDescription": "0.6km altitude drone shot of slow-motion pyroclastic flow engulfing a dead forest. Infrared filters reveal the 1200°C front liquefying pines into charcoal silhouettes, smoke plumes forming Dantean faces in updrafts."
+        },
+        {
+            "userId": "712378",
+            "name": "Nadia",
+            "avatar": "assets/images/userHeaders/user_7.png",
+            "userDescription": "A 37-year-old architectural historian from Cairo, Nadia's INTJ strategic mind maps ancient geometry onto modern cities. Her \"Fractal Cities\" project uses laser rangefinders to photograph precise alignments between pharaonic temples and contemporary skyscrapers.",
+            "photo": "assets/images/photos/7.png",
+            "photoDescription": "Twilight composite merging pyramid silhouette with glass high-rise reflections in the Nile. Laser-grid overlays prove identical azimuth angles, while star trails echo hieroglyphic constellations in the transition layer."
+        },
+        {
+            "userId": "891289",
+            "name": "Sienna",
+            "avatar": "assets/images/userHeaders/user_8.png",
+            "userDescription": "This 22-year-old Broadway chorus dancer turned street photographer embodies ESFP spontaneity. She infiltrates flash mobs with body-mounted GoPros, creating kaleidoscopic self-portraits within unfolding crowds.",
+            "photo": "assets/images/photos/8.png",
+            "photoDescription": "360° freeze-frame of conga line explosion in Times Square. Sequined costume fragments mirror disco ball reflections across wet pavement, motion blur transforming dancers into winged silhouettes."
+        },
+        {
+            "userId": "912738",
+            "name": "Yumi",
+            "avatar": "assets/images/userHeaders/user_9.png",
+            "userDescription": "A 34-year-old renewable energy CEO from Kyoto, Yumi's ENTJ leadership drives her \"Power Grid Portraits\" - drone light paintings tracing electricity from dams to neon cities.",
+            "photo": "assets/images/photos/9.png",
+            "photoDescription": "8-minute exposure of high-voltage towers along Lake Biwa, their crackling corona discharge illuminated by LED drones choreographed to grid frequency oscillations."
+        },
+        {
+            "userId": "107827",
+            "name": "Zara",
+            "avatar": "assets/images/userHeaders/user_10.jpeg",
+            "userDescription": "This 50-year-old librarian from Cape Town preserves indigenous tales through ISFJ devotion. Her \"Memory Veld\" series embeds archival microfilm in resin cubes, photographing them within original story locations.",
+            "photo": "assets/images/photos/10.png",
+            "photoDescription": "Macro shot of 1899 land deed text visible inside amber-like cube resting on parched earth, ghostly Bushmen rock art emerging in the background through heat haze distortion."
+        },
+        {
+            "userId": "112312",
+            "name": "Ravi",
+            "avatar": "assets/images/userHeaders/user_11.jpeg",
+            "userDescription": "A 29-year-old quantum physics PhD candidate from Mumbai, Ravi's INTP curiosity materializes in \"Schrödinger's Landscapes\" - paired photos showing identical locations during monsoons/droughts, quantum-tunnelled into single frames.",
+            "photo": "assets/images/photos/11.png",
+            "photoDescription": "Dual-state image of Rajasthan desert oasis simultaneously flooded and parched. Ripples intersect cracked earth in interference patterns, camel shadows existing in superposition across realities."
+        },
+        {
+            "userId": "128908",
+            "name": "Luca",
+            "avatar": "assets/images/userHeaders/user_12.jpeg",
+            "userDescription": "This 41-year-old Michelin-starred chef from Naples channels ESFJ harmony into \"Gastrography\". He photographs ingredients' molecular structures, then transforms them into edible prints using flavored bio-inks.",
+            "photo": "assets/images/photos/12.png",
+            "photoDescription": "Cross-polarized micrograph of basil chloroplasts resembling emerald galaxies, printed with wasabi ink on tofu canvas floating in miso broth frame."
+        },
+        {
+            "userId": "131321",
+            "name": "Omar",
+            "avatar": "assets/images/userHeaders/user_13.jpeg",
+            "userDescription": "A 56-year-old conflict zone medic from Beirut, Omar's INFJ idealism birthed \"Warflowers\" - bullet casings repurposed as vases, photographed where they fell with native blooms.",
+            "photo": "assets/images/photos/13.jpeg",
+            "photoDescription": "Decommissioned tank barrel sprouting opium poppies, the muzzle's spiral rifling guiding morning light into Fibonacci patterns across blood-red petals."
+        },
+        {
+            "userId": "1412311",
+            "name": "Mei",
+            "avatar": "assets/images/userHeaders/user_14.jpeg",
+            "userDescription": "A 39-year-old aerospace engineer from Xichang Satellite Launch Center. Her ISTJ precision drives \"Celestial Equations\" - long-exposure shots tracking rocket trajectories through mathematical graph overlays",
+            "photo": "assets/images/photos/14.png",
+            "photoDescription": "Star trails intersecting with chalk-white orbital calculations on black volcanic rock. The Chang'e-6 launch flame forms golden fractal patterns against pre-dawn equations."
+        },
+        {
+            "userId": "158921",
+            "name": "Yara",
+            "avatar": "assets/images/userHeaders/user_15.jpeg",
+            "userDescription": "This 44-year-old desert ecologist combats sandstorms in Inner Mongolia. Her ESTJ organization created \"Dune Sutures\" - aerial photos of straw checkerboards stabilizing 3,000km² mobile dunes",
+            "photo": "assets/images/photos/15.png",
+            "photoDescription": "God's-eye view of geometric straw grids stretching beyond horizon. Sand particle accumulation forms textural gradients from smooth gold (stabilized) to rippled umber (active dunes)."
+        },
+        {
+            "userId": "167889",
+            "name": "Lin",
+            "avatar": "assets/images/userHeaders/user_16.jpeg",
+            "userDescription": "A 51-year-old palliative care nurse from Taipei. Her ESFJ compassion produces \"Last Light Portraits\" - combining patients' final Polaroids with MRI scan light paintings",
+            "photo": "assets/images/photos/16.png",
+            "photoDescription": "Double exposure of elderly man's smile superimposed with glowing brain metastasis patterns. Medicinal herb shadows form protective halo around his hospice bed."
+        },
+        {
+            "userId": "175612",
+            "name": "Naila",
+            "avatar": "assets/images/userHeaders/user_17.jpeg",
+            "userDescription": "26-year-old AI ethics hacker from Shenzhen. Her ENTP curiosity generates \"Deepfake Diptychs\" - side-by-side portraits showing real vs algorithm-reconstructed facial expressions",
+            "photo": "assets/images/photos/17.png",
+            "photoDescription": "Split-frame comparison of migrant worker's weathered face (left) vs GAN-generated \"beautified\" version (right). Data corruption artifacts reveal as digital scars across synthetic cheekbones."
+        },
+        {
+            "userId": "185671",
+            "name": "Sakura",
+            "avatar": "assets/images/userHeaders/user_18.jpeg",
+            "userDescription": "Fukushima radiation zone tour guide. Her ISFP sensitivity documents \"Invisible Borders\" - UV-reactive photos revealing residual contamination through glowing mineral deposits",
+            "photo": "assets/images/photos/18.png",
+            "photoDescription": "Nighttime close-up of abandoned playground. Swing chains emit cyan fluorescence from cesium-137 absorption, radioactive rain droplets glowing like suspended constellations."
+        },
+        {
+            "userId": "199089",
+            "name": "Jian",
+            "avatar": "assets/images/userHeaders/user_19.jpeg",
+            "userDescription": "A 48-year-old firewalking ritual guardian from Fujian. His INFJ idealism captures \"Ash Calligraphy\" - writing ancestral proverbs with charred timber during ceremonial burns",
+            "photo": "assets/images/photos/19.png",
+            "photoDescription": "15-second exposure of flaming brush strokes mid-air. Smoldering temple beams form the character \"resilience\" against backdrop of collapsing roof structures."
+        },
+        {
+            "userId": "202131",
+            "name": "Tariq",
+            "avatar": "assets/images/userHeaders/user_20.jpeg",
+            "userDescription": "33-year-old Kashgar silk road motorcyclist. His ESTP thrill-seeking produces \"Dust Sonatas\" - helmet-cam footage stabilized into desert symphony visualizations",
+            "photo": "assets/images/photos/20.png",
+            "photoDescription": "Hyperlapse mosaic of 72h Taklamakan crossing. Vibration patterns from bike handlebars transform dunes into musical staff lines, sunglint creating rhythmic notation symbols."
+        },
+        {
+            "userId": "213211",
+            "name": "Hugo",
+            "avatar": "assets/images/userHeaders/user_21.jpeg",
+            "userDescription": "Berlin-based war memorial caretaker. His INFP empathy crafts \"Bullet Ballet\" - macro shots of deformed projectiles arranged into delicate kinetic sculptures.",
+            "photo": "assets/images/photos/21.png",
+            "photoDescription": "Suspended 1945 shrapnel fragments mimicking crane migration patterns. Rust particles fall through laser grid, each oxidation speck timed to Berlin air raid siren recordings."
+        }
+    ]
+}
