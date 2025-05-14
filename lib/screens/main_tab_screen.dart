@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:wyntra/screens/home_screen.dart';
-import 'package:wyntra/screens/community_screen.dart';
-import 'package:wyntra/screens/notifications_screen.dart';
 import 'package:wyntra/screens/profile_screen.dart';
 import 'package:wyntra/constants/app_colors.dart';
+import 'package:wyntra/screens/ai_analysis_screen.dart'; // 你需要创建这个文件
 
 class MainTabScreen extends StatefulWidget {
   const MainTabScreen({super.key});
@@ -17,8 +16,7 @@ class _MainTabScreenState extends State<MainTabScreen> {
 
   final List<Widget> _screens = [
     const HomeScreen(),
-    const CommunityScreen(),
-    const NotificationsScreen(),
+    const AiAnalysisScreen(), // 新增AI分析页面
     const ProfileScreen(),
   ];
 
@@ -61,13 +59,8 @@ class _MainTabScreenState extends State<MainTabScreen> {
               label: '',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.people_outline),
-              activeIcon: Icon(Icons.people),
-              label: '',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.notifications_outlined),
-              activeIcon: Icon(Icons.notifications),
+              icon: Icon(Icons.analytics_outlined), // 使用AI分析相关的图标
+              activeIcon: Icon(Icons.analytics),
               label: '',
             ),
             BottomNavigationBarItem(
