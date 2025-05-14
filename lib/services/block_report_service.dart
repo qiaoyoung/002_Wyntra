@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 
 /// Content moderation service for handling user blocking and content reporting
 /// Complies with Apple App Store guidelines for user-generated content
@@ -122,6 +123,57 @@ class BlockReportService {
   static Future<List<String>> getBlockedUsers() async {
     await initialize();
     return List.from(_blockedUsers);
+  }
+  
+  /// Get blocked user details with name and avatar
+  static Future<List<Map<String, String>>> getBlockedUserDetails() async {
+    await initialize();
+    
+    try {
+      // 从assets加载照片数据，以获取用户信息
+      final String response = await rootBundle.loadString('assets/images/data.json');
+      final data = await json.decode(response);
+      
+      final List<dynamic> usersJson = data['alldata'];
+      final Map<String, Map<String, String>> userMap = {};
+      
+      // 创建用户ID到用户信息的映射
+      for (var user in usersJson) {
+        userMap[user['userId']] = {
+          'name': user['name'],
+          'avatar': user['avatar'],
+        };
+      }
+      
+      // 获取被拉黑用户的详细信息
+      List<Map<String, String>> blockedUserDetails = [];
+      for (var userId in _blockedUsers) {
+        if (userMap.containsKey(userId)) {
+          blockedUserDetails.add({
+            'userId': userId,
+            'name': userMap[userId]!['name']!,
+            'avatar': userMap[userId]!['avatar']!,
+          });
+        } else {
+          // 如果没有找到用户信息，使用默认值
+          blockedUserDetails.add({
+            'userId': userId,
+            'name': 'Unknown User',
+            'avatar': 'assets/images/userHeaders/default_avatar.png',
+          });
+        }
+      }
+      
+      return blockedUserDetails;
+    } catch (e) {
+      debugPrint('Error getting blocked user details: $e');
+      // 返回仅包含ID的简单信息
+      return _blockedUsers.map((userId) => {
+        'userId': userId,
+        'name': 'Unknown User',
+        'avatar': 'assets/images/userHeaders/default_avatar.png',
+      }).toList();
+    }
   }
   
   /// Clear all user data - required for GDPR/CCPA compliance
