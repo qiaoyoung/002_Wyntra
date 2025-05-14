@@ -328,7 +328,7 @@ Byte kStr_elderlyValue[] = {69, 32, 12, 10, 148, 5, 146, 147, 88, 139, 128, 88, 
         //: ZZZKitInfoFetchOption *option = [[ZZZKitInfoFetchOption alloc] init];
         CertainOption *option = [[CertainOption alloc] init];
         //: option.session = teamListManager.session;
-        option.session = teamListManager.terrace;
+        option.session = teamListManager.session;
         //: ZZZKitInfo *info = [[AppleProjectKit sharedKit] infoByUser:obj.userId option:option];
         MagnitudeCommentInfo *info = [[On along] toKey:obj.userId image:option];
 
@@ -1054,7 +1054,7 @@ Byte kStr_elderlyValue[] = {69, 32, 12, 10, 148, 5, 146, 147, 88, 139, 128, 88, 
     //: BOOL isTop = switchview.on;
     BOOL isTop = switchview.on;
     //: NIMSession *session = _teamListManager.session;
-    NIMSession *session = _teamListManager.terrace;
+    NIMSession *session = _teamListManager.session;
     //: NIMRecentSession *recent = [[NIMSDK sharedSDK].conversationManager recentSessionBySession:session];
     NIMRecentSession *recent = [[NIMSDK sharedSDK].conversationManager recentSessionBySession:session];
     //: if (isTop) {
@@ -1193,7 +1193,7 @@ Byte kStr_elderlyValue[] = {69, 32, 12, 10, 148, 5, 146, 147, 88, 139, 128, 88, 
     //: option.start = 0;
     option.start = 0;
     //: [[NIMSDK sharedSDK].conversationManager deleteMessagesInSession:_teamListManager.session option:option completion:^(NSError * _Nullable error) {
-    [[NIMSDK sharedSDK].conversationManager deleteMessagesInSession:_teamListManager.terrace option:option completion:^(NSError * _Nullable error) {
+    [[NIMSDK sharedSDK].conversationManager deleteMessagesInSession:_teamListManager.session option:option completion:^(NSError * _Nullable error) {
 
     //: }];
     }];

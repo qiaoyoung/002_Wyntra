@@ -433,7 +433,7 @@
 }
 
 //: - (void)startScanning {
-- (void)myLength {
+- (void)startScanning {
     //: if (self.scanlineImgView.image == nil) {
     if (self.scanlineImgView.image == nil) {
         //: return;
@@ -453,7 +453,7 @@
 }
 
 //: - (void)stopScanning {
-- (void)image {
+- (void)stopScanning {
     //: if (self.scanlineImgView.image == nil) {
     if (self.scanlineImgView.image == nil) {
         //: return;

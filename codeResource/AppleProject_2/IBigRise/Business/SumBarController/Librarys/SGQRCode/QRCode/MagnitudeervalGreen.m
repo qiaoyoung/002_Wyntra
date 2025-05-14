@@ -202,7 +202,7 @@
 }
 
 //: - (void)stopRunning {
-- (void)play {
+- (void)stopRunning {
     //: if ([self.session isRunning]) {
     if ([self.session isRunning]) {
         //: [self.session stopRunning];

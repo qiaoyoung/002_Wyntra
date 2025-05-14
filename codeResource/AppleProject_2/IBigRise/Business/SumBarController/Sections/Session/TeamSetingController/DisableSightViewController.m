@@ -372,7 +372,7 @@ StatementMedia>
         //: ZZZKitInfoFetchOption *option = [[ZZZKitInfoFetchOption alloc] init];
         CertainOption *option = [[CertainOption alloc] init];
         //: option.session = self.teamListManager.session;
-        option.session = self.teamListManager.terrace;
+        option.session = self.teamListManager.session;
         //: ZZZKitInfo *info = [[AppleProjectKit sharedKit] infoByUser:obj.userId option:option];
         MagnitudeCommentInfo *info = [[On along] toKey:obj.userId image:option];
 
@@ -1112,7 +1112,7 @@ StatementMedia>
     //: NIMContactTeamMemberSelectConfig *config = [[NIMContactTeamMemberSelectConfig alloc] init];
     BeConfig *config = [[BeConfig alloc] init];
     //: config.session = self.teamListManager.session;
-    config.session = self.teamListManager.terrace;
+    config.session = self.teamListManager.session;
     //: config.teamType = NIMKitTeamTypeNomal;
     config.teamType = NIMKitTeamTypeNomal;
     //: config.teamId = self.teamListManager.team.teamId;
@@ -1149,7 +1149,7 @@ StatementMedia>
             //: options.removeOtherClients = YES;
             options.removeOtherClients = YES;
             //: [NIMSDK.sharedSDK.conversationManager deleteAllRemoteMessagesInSession:self.teamListManager.session options:options completion:^(NSError * _Nullable error) {
-            [NIMSDK.sharedSDK.conversationManager deleteAllRemoteMessagesInSession:self.teamListManager.terrace options:options completion:^(NSError * _Nullable error) {
+            [NIMSDK.sharedSDK.conversationManager deleteAllRemoteMessagesInSession:self.teamListManager.session options:options completion:^(NSError * _Nullable error) {
                 //: if (error) {
                 if (error) {
                     //: return;

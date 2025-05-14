@@ -56,8 +56,7 @@
 //: - (void)startRunning;
 - (void)input;
 /// 停止扫描
-//: - (void)stopRunning;
-- (void)play;
+- (void)stopRunning;
 
 /// 播放音效
 //: - (void)playSoundEffect:(NSString *)name;

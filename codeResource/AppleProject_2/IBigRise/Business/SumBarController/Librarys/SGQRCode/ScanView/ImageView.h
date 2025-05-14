@@ -52,12 +52,10 @@ typedef void(^SGScanViewDoubleTapBlock)(BOOL selected);
 
 
 /// 开始扫描
-//: - (void)startScanning;
-- (void)myLength;
+- (void)startScanning;
 
 /// 停止扫描
-//: - (void)stopScanning;
-- (void)image;
+- (void)stopScanning;
 
 //: @end
 @end

@@ -172,8 +172,7 @@ NS_ASSUME_NONNULL_BEGIN
 //: - (NIMTeam *)team;
 - (NIMTeam *)should;
 
-//: - (NIMSession *)session;
-- (NIMSession *)terrace;
+- (NIMSession *)session;
 
 //: - (NSInteger)memberNumber;
 - (NSInteger)majority;

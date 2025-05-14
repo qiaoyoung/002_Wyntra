@@ -127,15 +127,15 @@ Byte kStr_commentName[] = {74, 3, 50, 7, 189, 243, 10, 59, 65, 53, 177};
     //: [scanCode startRunning];
     [scanCode input];
     //: [self.scanView startScanning];
-    [self.scanView myLength];
+    [self.scanView startScanning];
 }
 
 //: - (void)stop {
 - (void)cameraStop {
     //: [scanCode stopRunning];
-    [scanCode play];
+    [scanCode stopRunning];
     //: [self.scanView stopScanning];
-    [self.scanView image];
+    [self.scanView stopScanning];
 }
 
 //: - (void)viewDidLoad {

@@ -85,8 +85,7 @@ typedef void(^NIMContactDataProviderHandler)(NSDictionary *contentDic, NSArray *
 - (MagnitudeCommentInfo *)top:(NSString *)selectedId;
 
 /// 是否显示头部的群头像 群名字headerview
-//: - (BOOL)showSelectHeaderview;
-- (BOOL)timeHeaderview;
+- (BOOL)showSelectHeaderview;
 
 //: @end
 @end

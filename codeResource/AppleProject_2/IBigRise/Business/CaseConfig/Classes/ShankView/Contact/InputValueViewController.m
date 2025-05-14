@@ -426,7 +426,7 @@ Byte kStr_reignName[] = {83, 19, 13, 95, 64, 115, 65, 195, 106, 56, 218, 244, 22
 - (IBAction)shows:(id)sender {
 
     //: if (self.config.showSelectHeaderview) {
-    if (self.config.timeHeaderview) {
+    if (self.config.showSelectHeaderview) {
 
         //: [self.view addSubview:self.setGroupnameView];
         [self.view addSubview:self.setGroupnameView];
