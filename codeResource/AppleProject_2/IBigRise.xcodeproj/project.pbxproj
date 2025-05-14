@@ -22,8 +22,8 @@
 		B146579B2DC0B4E300C4D5B8 /* UIView+Straddle.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653762DC0B4E300C4D5B8 /* UIView+Straddle.m */; };
 		B146579C2DC0B4E300C4D5B8 /* UIViewNimKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653782DC0B4E300C4D5B8 /* UIViewNimKit.m */; };
 		B146579D2DC0B4E300C4D5B8 /* YYAnimatedImageView+Board.m in Sources */ = {isa = PBXBuildFile; fileRef = B146537A2DC0B4E300C4D5B8 /* YYAnimatedImageView+Board.m */; };
-		B146579E2DC0B4E300C4D5B8 /* ZZZExtensionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B146537C2DC0B4E300C4D5B8 /* ZZZExtensionHelper.m */; };
-		B146579F2DC0B4E300C4D5B8 /* ZZZCommonTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = B146537F2DC0B4E300C4D5B8 /* ZZZCommonTableData.m */; };
+		B146579E2DC0B4E300C4D5B8 /* DataExtensionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B146537C2DC0B4E300C4D5B8 /* DataExtensionHelper.m */; };
+		B146579F2DC0B4E300C4D5B8 /* DataCommonTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = B146537F2DC0B4E300C4D5B8 /* DataCommonTableData.m */; };
 		B14657A02DC0B4E300C4D5B8 /* ColumnShould.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653812DC0B4E300C4D5B8 /* ColumnShould.m */; };
 		B14657A12DC0B4E300C4D5B8 /* WithViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653852DC0B4E300C4D5B8 /* WithViewCell.m */; };
 		B14657A22DC0B4E300C4D5B8 /* CaseConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653872DC0B4E300C4D5B8 /* CaseConfig.m */; };
@@ -44,7 +44,7 @@
 		B14657B12DC0B4E300C4D5B8 /* CheckedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653B02DC0B4E300C4D5B8 /* CheckedView.m */; };
 		B14657B22DC0B4E300C4D5B8 /* ColorExamineView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653B22DC0B4E300C4D5B8 /* ColorExamineView.m */; };
 		B14657B32DC0B4E300C4D5B8 /* ContactEdgeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653B52DC0B4E300C4D5B8 /* ContactEdgeViewCell.m */; };
-		B14657B42DC0B4E300C4D5B8 /* ZZZGroupedUsrInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653B92DC0B4E300C4D5B8 /* ZZZGroupedUsrInfo.m */; };
+		B14657B42DC0B4E300C4D5B8 /* DataGroupedUsrInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653B92DC0B4E300C4D5B8 /* DataGroupedUsrInfo.m */; };
 		B14657B52DC0B4E300C4D5B8 /* EmptyStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653BB2DC0B4E300C4D5B8 /* EmptyStatus.m */; };
 		B14657B62DC0B4E300C4D5B8 /* CommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653BE2DC0B4E300C4D5B8 /* CommentView.m */; };
 		B14657B72DC0B4E300C4D5B8 /* EdgeConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653C02DC0B4E300C4D5B8 /* EdgeConfig.m */; };
@@ -73,7 +73,7 @@
 		B14657CE2DC0B4E300C4D5B8 /* CollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653F32DC0B4E300C4D5B8 /* CollectionModel.m */; };
 		B14657CF2DC0B4E300C4D5B8 /* GreenTingLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653F52DC0B4E300C4D5B8 /* GreenTingLanguage.m */; };
 		B14657D02DC0B4E300C4D5B8 /* FrameShould.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653F82DC0B4E300C4D5B8 /* FrameShould.m */; };
-		B14657D12DC0B4E300C4D5B8 /* ZZZBaseSessionContentConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653FA2DC0B4E300C4D5B8 /* ZZZBaseSessionContentConfig.m */; };
+		B14657D12DC0B4E300C4D5B8 /* DataBaseSessionContentConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653FA2DC0B4E300C4D5B8 /* DataBaseSessionContentConfig.m */; };
 		B14657D22DC0B4E300C4D5B8 /* DisableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653FC2DC0B4E300C4D5B8 /* DisableModel.m */; };
 		B14657D32DC0B4E300C4D5B8 /* ChangeConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B14653FE2DC0B4E300C4D5B8 /* ChangeConfig.m */; };
 		B14657D42DC0B4E300C4D5B8 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = B14654002DC0B4E300C4D5B8 /* Config.m */; };
@@ -133,7 +133,7 @@
 		B146580A2DC0B4E300C4D5B8 /* WithQuantityerval.m in Sources */ = {isa = PBXBuildFile; fileRef = B14654842DC0B4E300C4D5B8 /* WithQuantityerval.m */; };
 		B146580B2DC0B4E300C4D5B8 /* ElevenPath.m in Sources */ = {isa = PBXBuildFile; fileRef = B14654862DC0B4E300C4D5B8 /* ElevenPath.m */; };
 		B146580C2DC0B4E300C4D5B8 /* ShareEmptyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B14654882DC0B4E300C4D5B8 /* ShareEmptyCell.m */; };
-		B146580D2DC0B4E300C4D5B8 /* ZZZUsrInfoData.m in Sources */ = {isa = PBXBuildFile; fileRef = B146548A2DC0B4E300C4D5B8 /* ZZZUsrInfoData.m */; };
+		B146580D2DC0B4E300C4D5B8 /* DataUsrInfoData.m in Sources */ = {isa = PBXBuildFile; fileRef = B146548A2DC0B4E300C4D5B8 /* DataUsrInfoData.m */; };
 		B146580E2DC0B4E300C4D5B8 /* PathPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B146548D2DC0B4E300C4D5B8 /* PathPinViewController.m */; };
 		B146580F2DC0B4E300C4D5B8 /* ShareUpgradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B146548F2DC0B4E300C4D5B8 /* ShareUpgradeViewController.m */; };
 		B14658102DC0B4E300C4D5B8 /* DistanceKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14654922DC0B4E300C4D5B8 /* DistanceKeyViewController.m */; };
@@ -458,21 +458,20 @@
 		B14653782DC0B4E300C4D5B8 /* UIViewNimKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewNimKit.m; sourceTree = "<group>"; };
 		B14653792DC0B4E300C4D5B8 /* YYAnimatedImageView+Board.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYAnimatedImageView+Board.h"; sourceTree = "<group>"; };
 		B146537A2DC0B4E300C4D5B8 /* YYAnimatedImageView+Board.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YYAnimatedImageView+Board.m"; sourceTree = "<group>"; };
-		B146537B2DC0B4E300C4D5B8 /* ZZZExtensionHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZExtensionHelper.h; sourceTree = "<group>"; };
-		B146537C2DC0B4E300C4D5B8 /* ZZZExtensionHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZZExtensionHelper.m; sourceTree = "<group>"; };
-		B146537E2DC0B4E300C4D5B8 /* ZZZCommonTableData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZCommonTableData.h; sourceTree = "<group>"; };
-		B146537F2DC0B4E300C4D5B8 /* ZZZCommonTableData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZZCommonTableData.m; sourceTree = "<group>"; };
+		B146537B2DC0B4E300C4D5B8 /* DataExtensionHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataExtensionHelper.h; sourceTree = "<group>"; };
+		B146537C2DC0B4E300C4D5B8 /* DataExtensionHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataExtensionHelper.m; sourceTree = "<group>"; };
+		B146537E2DC0B4E300C4D5B8 /* DataCommonTableData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataCommonTableData.h; sourceTree = "<group>"; };
+		B146537F2DC0B4E300C4D5B8 /* DataCommonTableData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataCommonTableData.m; sourceTree = "<group>"; };
 		B14653802DC0B4E300C4D5B8 /* ColumnShould.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColumnShould.h; sourceTree = "<group>"; };
 		B14653812DC0B4E300C4D5B8 /* ColumnShould.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColumnShould.m; sourceTree = "<group>"; };
 		B14653822DC0B4E300C4D5B8 /* CountCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountCell.h; sourceTree = "<group>"; };
-		B14653832DC0B4E300C4D5B8 /* ZZZGlobalMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZGlobalMacro.h; sourceTree = "<group>"; };
 		B14653842DC0B4E300C4D5B8 /* WithViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WithViewCell.h; sourceTree = "<group>"; };
 		B14653852DC0B4E300C4D5B8 /* WithViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WithViewCell.m; sourceTree = "<group>"; };
 		B14653862DC0B4E300C4D5B8 /* CaseConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaseConfig.h; sourceTree = "<group>"; };
 		B14653872DC0B4E300C4D5B8 /* CaseConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaseConfig.m; sourceTree = "<group>"; };
 		B14653882DC0B4E300C4D5B8 /* IndependentImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndependentImpl.h; sourceTree = "<group>"; };
 		B14653892DC0B4E300C4D5B8 /* IndependentImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndependentImpl.m; sourceTree = "<group>"; };
-		B146538A2DC0B4E300C4D5B8 /* ZZZKitDependency.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZKitDependency.h; sourceTree = "<group>"; };
+		B146538A2DC0B4E300C4D5B8 /* DataKitDependency.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataKitDependency.h; sourceTree = "<group>"; };
 		B146538B2DC0B4E300C4D5B8 /* CellVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellVersion.h; sourceTree = "<group>"; };
 		B146538C2DC0B4E300C4D5B8 /* CellVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellVersion.m; sourceTree = "<group>"; };
 		B146538D2DC0B4E300C4D5B8 /* DevelopmentColorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevelopmentColorView.h; sourceTree = "<group>"; };
@@ -483,12 +482,12 @@
 		B14653922DC0B4E300C4D5B8 /* LabelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelView.m; sourceTree = "<group>"; };
 		B14653932DC0B4E300C4D5B8 /* BecloudManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BecloudManager.h; sourceTree = "<group>"; };
 		B14653942DC0B4E300C4D5B8 /* BecloudManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BecloudManager.m; sourceTree = "<group>"; };
-		B14653962DC0B4E300C4D5B8 /* ZZZCellConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZCellConfig.h; sourceTree = "<group>"; };
-		B14653972DC0B4E300C4D5B8 /* ZZZChatUIManagerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZChatUIManagerProtocol.h; sourceTree = "<group>"; };
-		B14653982DC0B4E300C4D5B8 /* ZZZInputProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZInputProtocol.h; sourceTree = "<group>"; };
+		B14653962DC0B4E300C4D5B8 /* DataCellConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataCellConfig.h; sourceTree = "<group>"; };
+		B14653972DC0B4E300C4D5B8 /* DataChatUIManagerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataChatUIManagerProtocol.h; sourceTree = "<group>"; };
+		B14653982DC0B4E300C4D5B8 /* DataInputProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataInputProtocol.h; sourceTree = "<group>"; };
 		B14653992DC0B4E300C4D5B8 /* RubricStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RubricStatus.h; sourceTree = "<group>"; };
 		B146539A2DC0B4E300C4D5B8 /* EmptySizeWith.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmptySizeWith.h; sourceTree = "<group>"; };
-		B146539B2DC0B4E300C4D5B8 /* ZZZMessageCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZMessageCellProtocol.h; sourceTree = "<group>"; };
+		B146539B2DC0B4E300C4D5B8 /* DataMessageCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataMessageCellProtocol.h; sourceTree = "<group>"; };
 		B146539C2DC0B4E300C4D5B8 /* PastConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PastConfig.h; sourceTree = "<group>"; };
 		B146539E2DC0B4E300C4D5B8 /* ShankView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShankView.h; sourceTree = "<group>"; };
 		B146539F2DC0B4E300C4D5B8 /* ShankView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShankView.m; sourceTree = "<group>"; };
@@ -513,9 +512,9 @@
 		B14653B22DC0B4E300C4D5B8 /* ColorExamineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorExamineView.m; sourceTree = "<group>"; };
 		B14653B42DC0B4E300C4D5B8 /* ContactEdgeViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactEdgeViewCell.h; sourceTree = "<group>"; };
 		B14653B52DC0B4E300C4D5B8 /* ContactEdgeViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactEdgeViewCell.m; sourceTree = "<group>"; };
-		B14653B62DC0B4E300C4D5B8 /* ZZZContactDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZContactDefines.h; sourceTree = "<group>"; };
-		B14653B82DC0B4E300C4D5B8 /* ZZZGroupedUsrInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZGroupedUsrInfo.h; sourceTree = "<group>"; };
-		B14653B92DC0B4E300C4D5B8 /* ZZZGroupedUsrInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZZGroupedUsrInfo.m; sourceTree = "<group>"; };
+		B14653B62DC0B4E300C4D5B8 /* DataContactDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataContactDefines.h; sourceTree = "<group>"; };
+		B14653B82DC0B4E300C4D5B8 /* DataGroupedUsrInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataGroupedUsrInfo.h; sourceTree = "<group>"; };
+		B14653B92DC0B4E300C4D5B8 /* DataGroupedUsrInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataGroupedUsrInfo.m; sourceTree = "<group>"; };
 		B14653BA2DC0B4E300C4D5B8 /* EmptyStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmptyStatus.h; sourceTree = "<group>"; };
 		B14653BB2DC0B4E300C4D5B8 /* EmptyStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyStatus.m; sourceTree = "<group>"; };
 		B14653BD2DC0B4E300C4D5B8 /* CommentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentView.h; sourceTree = "<group>"; };
@@ -540,12 +539,11 @@
 		B14653D22DC0B4E300C4D5B8 /* StatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusView.m; sourceTree = "<group>"; };
 		B14653D32DC0B4E300C4D5B8 /* MediaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaView.h; sourceTree = "<group>"; };
 		B14653D42DC0B4E300C4D5B8 /* MediaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaView.m; sourceTree = "<group>"; };
-		B14653D52DC0B4E300C4D5B8 /* ZZZInputBarItemType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZInputBarItemType.h; sourceTree = "<group>"; };
+		B14653D52DC0B4E300C4D5B8 /* DataInputBarItemType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataInputBarItemType.h; sourceTree = "<group>"; };
 		B14653D62DC0B4E300C4D5B8 /* SignalingMaxButtonControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignalingMaxButtonControl.h; sourceTree = "<group>"; };
 		B14653D72DC0B4E300C4D5B8 /* SignalingMaxButtonControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignalingMaxButtonControl.m; sourceTree = "<group>"; };
 		B14653D82DC0B4E300C4D5B8 /* ItemEnableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemEnableView.h; sourceTree = "<group>"; };
 		B14653D92DC0B4E300C4D5B8 /* ItemEnableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemEnableView.m; sourceTree = "<group>"; };
-		B14653DA2DC0B4E300C4D5B8 /* ZZZInputEmoticonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZInputEmoticonDefine.h; sourceTree = "<group>"; };
 		B14653DB2DC0B4E300C4D5B8 /* SumManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumManager.h; sourceTree = "<group>"; };
 		B14653DC2DC0B4E300C4D5B8 /* SumManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumManager.m; sourceTree = "<group>"; };
 		B14653DD2DC0B4E300C4D5B8 /* FrameworkName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkName.h; sourceTree = "<group>"; };
@@ -574,8 +572,8 @@
 		B14653F52DC0B4E300C4D5B8 /* GreenTingLanguage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreenTingLanguage.m; sourceTree = "<group>"; };
 		B14653F72DC0B4E300C4D5B8 /* FrameShould.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameShould.h; sourceTree = "<group>"; };
 		B14653F82DC0B4E300C4D5B8 /* FrameShould.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameShould.m; sourceTree = "<group>"; };
-		B14653F92DC0B4E300C4D5B8 /* ZZZBaseSessionContentConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZBaseSessionContentConfig.h; sourceTree = "<group>"; };
-		B14653FA2DC0B4E300C4D5B8 /* ZZZBaseSessionContentConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZZBaseSessionContentConfig.m; sourceTree = "<group>"; };
+		B14653F92DC0B4E300C4D5B8 /* DataBaseSessionContentConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataBaseSessionContentConfig.h; sourceTree = "<group>"; };
+		B14653FA2DC0B4E300C4D5B8 /* DataBaseSessionContentConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBaseSessionContentConfig.m; sourceTree = "<group>"; };
 		B14653FB2DC0B4E300C4D5B8 /* DisableModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisableModel.h; sourceTree = "<group>"; };
 		B14653FC2DC0B4E300C4D5B8 /* DisableModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisableModel.m; sourceTree = "<group>"; };
 		B14653FD2DC0B4E300C4D5B8 /* ChangeConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeConfig.h; sourceTree = "<group>"; };
@@ -610,7 +608,7 @@
 		B146541F2DC0B4E300C4D5B8 /* UIImage+Mutation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Mutation.m"; sourceTree = "<group>"; };
 		B14654202DC0B4E300C4D5B8 /* ShareCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareCenter.h; sourceTree = "<group>"; };
 		B14654212DC0B4E300C4D5B8 /* ShareCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareCenter.m; sourceTree = "<group>"; };
-		B14654222DC0B4E300C4D5B8 /* ZZZSessionConfigurateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZSessionConfigurateProtocol.h; sourceTree = "<group>"; };
+		B14654222DC0B4E300C4D5B8 /* DataSessionConfigurateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSessionConfigurateProtocol.h; sourceTree = "<group>"; };
 		B14654232DC0B4E300C4D5B8 /* NameChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NameChange.h; sourceTree = "<group>"; };
 		B14654242DC0B4E300C4D5B8 /* NameChange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NameChange.m; sourceTree = "<group>"; };
 		B14654252DC0B4E300C4D5B8 /* ShareDistance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareDistance.h; sourceTree = "<group>"; };
@@ -621,7 +619,7 @@
 		B146542A2DC0B4E300C4D5B8 /* ViewContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewContainer.m; sourceTree = "<group>"; };
 		B146542B2DC0B4E300C4D5B8 /* ModelDatasource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelDatasource.h; sourceTree = "<group>"; };
 		B146542C2DC0B4E300C4D5B8 /* ModelDatasource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelDatasource.m; sourceTree = "<group>"; };
-		B146542D2DC0B4E300C4D5B8 /* ZZZSessionPrivateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZSessionPrivateProtocol.h; sourceTree = "<group>"; };
+		B146542D2DC0B4E300C4D5B8 /* DataSessionPrivateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSessionPrivateProtocol.h; sourceTree = "<group>"; };
 		B146542E2DC0B4E300C4D5B8 /* TitleMax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleMax.h; sourceTree = "<group>"; };
 		B146542F2DC0B4E300C4D5B8 /* TitleMax.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleMax.m; sourceTree = "<group>"; };
 		B14654312DC0B4E300C4D5B8 /* IndependentControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndependentControl.h; sourceTree = "<group>"; };
@@ -690,7 +688,7 @@
 		B146547A2DC0B4E300C4D5B8 /* InformationShould.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformationShould.h; sourceTree = "<group>"; };
 		B146547B2DC0B4E300C4D5B8 /* InformationShould.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformationShould.m; sourceTree = "<group>"; };
 		B146547C2DC0B4E300C4D5B8 /* IndependentSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndependentSource.h; sourceTree = "<group>"; };
-		B146547E2DC0B4E300C4D5B8 /* ZZZCardDataSourceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZCardDataSourceProtocol.h; sourceTree = "<group>"; };
+		B146547E2DC0B4E300C4D5B8 /* DataCardDataSourceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataCardDataSourceProtocol.h; sourceTree = "<group>"; };
 		B146547F2DC0B4E300C4D5B8 /* LabelRescueOperationContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelRescueOperationContainer.h; sourceTree = "<group>"; };
 		B14654802DC0B4E300C4D5B8 /* LabelRescueOperationContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelRescueOperationContainer.m; sourceTree = "<group>"; };
 		B14654812DC0B4E300C4D5B8 /* TingEnterEnable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TingEnterEnable.h; sourceTree = "<group>"; };
@@ -701,8 +699,8 @@
 		B14654862DC0B4E300C4D5B8 /* ElevenPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElevenPath.m; sourceTree = "<group>"; };
 		B14654872DC0B4E300C4D5B8 /* ShareEmptyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareEmptyCell.h; sourceTree = "<group>"; };
 		B14654882DC0B4E300C4D5B8 /* ShareEmptyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareEmptyCell.m; sourceTree = "<group>"; };
-		B14654892DC0B4E300C4D5B8 /* ZZZUsrInfoData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZZUsrInfoData.h; sourceTree = "<group>"; };
-		B146548A2DC0B4E300C4D5B8 /* ZZZUsrInfoData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZZUsrInfoData.m; sourceTree = "<group>"; };
+		B14654892DC0B4E300C4D5B8 /* DataUsrInfoData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataUsrInfoData.h; sourceTree = "<group>"; };
+		B146548A2DC0B4E300C4D5B8 /* DataUsrInfoData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataUsrInfoData.m; sourceTree = "<group>"; };
 		B146548C2DC0B4E300C4D5B8 /* PathPinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathPinViewController.h; sourceTree = "<group>"; };
 		B146548D2DC0B4E300C4D5B8 /* PathPinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathPinViewController.m; sourceTree = "<group>"; };
 		B146548E2DC0B4E300C4D5B8 /* ShareUpgradeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareUpgradeViewController.h; sourceTree = "<group>"; };
@@ -1269,14 +1267,13 @@
 		B14657232DC0B4E300C4D5B8 /* GoopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoopView.m; sourceTree = "<group>"; };
 		B14657242DC0B4E300C4D5B8 /* ContainerTitle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerTitle.h; sourceTree = "<group>"; };
 		B14657252DC0B4E300C4D5B8 /* ContainerTitle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerTitle.m; sourceTree = "<group>"; };
-		B14657272DC0B4E300C4D5B8 /* NTESGlobalMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESGlobalMacro.h; sourceTree = "<group>"; };
 		B14657282DC0B4E300C4D5B8 /* VisualImageDisable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualImageDisable.h; sourceTree = "<group>"; };
 		B14657292DC0B4E300C4D5B8 /* VisualImageDisable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualImageDisable.m; sourceTree = "<group>"; };
 		B146572A2DC0B4E300C4D5B8 /* SenseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenseRequest.h; sourceTree = "<group>"; };
 		B146572B2DC0B4E300C4D5B8 /* SenseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SenseRequest.m; sourceTree = "<group>"; };
 		B146572C2DC0B4E300C4D5B8 /* UIImage+View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+View.h"; sourceTree = "<group>"; };
 		B146572D2DC0B4E300C4D5B8 /* UIImage+View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+View.m"; sourceTree = "<group>"; };
-		B146572E2DC0B4E300C4D5B8 /* ZZZ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZZZ-Prefix.pch"; sourceTree = "<group>"; };
+		B146572E2DC0B4E300C4D5B8 /* Runner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Prefix.pch"; sourceTree = "<group>"; };
 		B146572F2DC0B4E300C4D5B8 /* OnContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnContainer.h; sourceTree = "<group>"; };
 		B14657302DC0B4E300C4D5B8 /* OnContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnContainer.m; sourceTree = "<group>"; };
 		B14657312DC0B4E300C4D5B8 /* LabelSure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelSure.h; sourceTree = "<group>"; };
@@ -1346,13 +1343,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B14653622DC0B4E300C4D5B8 /* BanCapture */ = {
+		B14653622DC0B4E300C4D5B8 /* DataExtensionHelper */ = {
 			isa = PBXGroup;
 			children = (
 				B14653602DC0B4E300C4D5B8 /* NSDictionaryExtend.h */,
 				B14653612DC0B4E300C4D5B8 /* NSDictionaryExtend.m */,
 			);
-			path = BanCapture;
+			path = DataExtensionHelper;
 			sourceTree = "<group>";
 		};
 		B146537D2DC0B4E300C4D5B8 /* Category */ = {
@@ -1382,28 +1379,27 @@
 				B14653782DC0B4E300C4D5B8 /* UIViewNimKit.m */,
 				B14653792DC0B4E300C4D5B8 /* YYAnimatedImageView+Board.h */,
 				B146537A2DC0B4E300C4D5B8 /* YYAnimatedImageView+Board.m */,
-				B146537B2DC0B4E300C4D5B8 /* ZZZExtensionHelper.h */,
-				B146537C2DC0B4E300C4D5B8 /* ZZZExtensionHelper.m */,
+				B146537B2DC0B4E300C4D5B8 /* DataExtensionHelper.h */,
+				B146537C2DC0B4E300C4D5B8 /* DataExtensionHelper.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		B14653952DC0B4E300C4D5B8 /* Global */ = {
+		B14653952DC0B4E300C4D5B8 /* CellVersion */ = {
 			isa = PBXGroup;
 			children = (
-				B146537E2DC0B4E300C4D5B8 /* ZZZCommonTableData.h */,
-				B146537F2DC0B4E300C4D5B8 /* ZZZCommonTableData.m */,
+				B146537E2DC0B4E300C4D5B8 /* DataCommonTableData.h */,
+				B146537F2DC0B4E300C4D5B8 /* DataCommonTableData.m */,
 				B14653802DC0B4E300C4D5B8 /* ColumnShould.h */,
 				B14653812DC0B4E300C4D5B8 /* ColumnShould.m */,
 				B14653822DC0B4E300C4D5B8 /* CountCell.h */,
-				B14653832DC0B4E300C4D5B8 /* ZZZGlobalMacro.h */,
 				B14653842DC0B4E300C4D5B8 /* WithViewCell.h */,
 				B14653852DC0B4E300C4D5B8 /* WithViewCell.m */,
 				B14653862DC0B4E300C4D5B8 /* CaseConfig.h */,
 				B14653872DC0B4E300C4D5B8 /* CaseConfig.m */,
 				B14653882DC0B4E300C4D5B8 /* IndependentImpl.h */,
 				B14653892DC0B4E300C4D5B8 /* IndependentImpl.m */,
-				B146538A2DC0B4E300C4D5B8 /* ZZZKitDependency.h */,
+				B146538A2DC0B4E300C4D5B8 /* DataKitDependency.h */,
 				B146538B2DC0B4E300C4D5B8 /* CellVersion.h */,
 				B146538C2DC0B4E300C4D5B8 /* CellVersion.m */,
 				B146538D2DC0B4E300C4D5B8 /* DevelopmentColorView.h */,
@@ -1415,21 +1411,21 @@
 				B14653932DC0B4E300C4D5B8 /* BecloudManager.h */,
 				B14653942DC0B4E300C4D5B8 /* BecloudManager.m */,
 			);
-			path = Global;
+			path = CellVersion;
 			sourceTree = "<group>";
 		};
-		B146539D2DC0B4E300C4D5B8 /* Protocols */ = {
+		B146539D2DC0B4E300C4D5B8 /* DataCellConfig */ = {
 			isa = PBXGroup;
 			children = (
-				B14653962DC0B4E300C4D5B8 /* ZZZCellConfig.h */,
-				B14653972DC0B4E300C4D5B8 /* ZZZChatUIManagerProtocol.h */,
-				B14653982DC0B4E300C4D5B8 /* ZZZInputProtocol.h */,
+				B14653962DC0B4E300C4D5B8 /* DataCellConfig.h */,
+				B14653972DC0B4E300C4D5B8 /* DataChatUIManagerProtocol.h */,
+				B14653982DC0B4E300C4D5B8 /* DataInputProtocol.h */,
 				B14653992DC0B4E300C4D5B8 /* RubricStatus.h */,
 				B146539A2DC0B4E300C4D5B8 /* EmptySizeWith.h */,
-				B146539B2DC0B4E300C4D5B8 /* ZZZMessageCellProtocol.h */,
+				B146539B2DC0B4E300C4D5B8 /* DataMessageCellProtocol.h */,
 				B146539C2DC0B4E300C4D5B8 /* PastConfig.h */,
 			);
-			path = Protocols;
+			path = DataCellConfig;
 			sourceTree = "<group>";
 		};
 		B14653B32DC0B4E300C4D5B8 /* Common */ = {
@@ -1465,7 +1461,7 @@
 			children = (
 				B14653B42DC0B4E300C4D5B8 /* ContactEdgeViewCell.h */,
 				B14653B52DC0B4E300C4D5B8 /* ContactEdgeViewCell.m */,
-				B14653B62DC0B4E300C4D5B8 /* ZZZContactDefines.h */,
+				B14653B62DC0B4E300C4D5B8 /* DataContactDefines.h */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -1473,8 +1469,8 @@
 		B14653BC2DC0B4E300C4D5B8 /* ContactGroup */ = {
 			isa = PBXGroup;
 			children = (
-				B14653B82DC0B4E300C4D5B8 /* ZZZGroupedUsrInfo.h */,
-				B14653B92DC0B4E300C4D5B8 /* ZZZGroupedUsrInfo.m */,
+				B14653B82DC0B4E300C4D5B8 /* DataGroupedUsrInfo.h */,
+				B14653B92DC0B4E300C4D5B8 /* DataGroupedUsrInfo.m */,
 				B14653BA2DC0B4E300C4D5B8 /* EmptyStatus.h */,
 				B14653BB2DC0B4E300C4D5B8 /* EmptyStatus.m */,
 			);
@@ -1523,12 +1519,11 @@
 				B14653D22DC0B4E300C4D5B8 /* StatusView.m */,
 				B14653D32DC0B4E300C4D5B8 /* MediaView.h */,
 				B14653D42DC0B4E300C4D5B8 /* MediaView.m */,
-				B14653D52DC0B4E300C4D5B8 /* ZZZInputBarItemType.h */,
+				B14653D52DC0B4E300C4D5B8 /* DataInputBarItemType.h */,
 				B14653D62DC0B4E300C4D5B8 /* SignalingMaxButtonControl.h */,
 				B14653D72DC0B4E300C4D5B8 /* SignalingMaxButtonControl.m */,
 				B14653D82DC0B4E300C4D5B8 /* ItemEnableView.h */,
 				B14653D92DC0B4E300C4D5B8 /* ItemEnableView.m */,
-				B14653DA2DC0B4E300C4D5B8 /* ZZZInputEmoticonDefine.h */,
 				B14653DB2DC0B4E300C4D5B8 /* SumManager.h */,
 				B14653DC2DC0B4E300C4D5B8 /* SumManager.m */,
 				B14653DD2DC0B4E300C4D5B8 /* FrameworkName.h */,
@@ -1571,8 +1566,8 @@
 			children = (
 				B14653F72DC0B4E300C4D5B8 /* FrameShould.h */,
 				B14653F82DC0B4E300C4D5B8 /* FrameShould.m */,
-				B14653F92DC0B4E300C4D5B8 /* ZZZBaseSessionContentConfig.h */,
-				B14653FA2DC0B4E300C4D5B8 /* ZZZBaseSessionContentConfig.m */,
+				B14653F92DC0B4E300C4D5B8 /* DataBaseSessionContentConfig.h */,
+				B14653FA2DC0B4E300C4D5B8 /* DataBaseSessionContentConfig.m */,
 				B14653FB2DC0B4E300C4D5B8 /* DisableModel.h */,
 				B14653FC2DC0B4E300C4D5B8 /* DisableModel.m */,
 				B14653FD2DC0B4E300C4D5B8 /* ChangeConfig.h */,
@@ -1644,7 +1639,7 @@
 				B146541F2DC0B4E300C4D5B8 /* UIImage+Mutation.m */,
 				B14654202DC0B4E300C4D5B8 /* ShareCenter.h */,
 				B14654212DC0B4E300C4D5B8 /* ShareCenter.m */,
-				B14654222DC0B4E300C4D5B8 /* ZZZSessionConfigurateProtocol.h */,
+				B14654222DC0B4E300C4D5B8 /* DataSessionConfigurateProtocol.h */,
 				B14654232DC0B4E300C4D5B8 /* NameChange.h */,
 				B14654242DC0B4E300C4D5B8 /* NameChange.m */,
 				B14654252DC0B4E300C4D5B8 /* ShareDistance.h */,
@@ -1655,7 +1650,7 @@
 				B146542A2DC0B4E300C4D5B8 /* ViewContainer.m */,
 				B146542B2DC0B4E300C4D5B8 /* ModelDatasource.h */,
 				B146542C2DC0B4E300C4D5B8 /* ModelDatasource.m */,
-				B146542D2DC0B4E300C4D5B8 /* ZZZSessionPrivateProtocol.h */,
+				B146542D2DC0B4E300C4D5B8 /* DataSessionPrivateProtocol.h */,
 				B146542E2DC0B4E300C4D5B8 /* TitleMax.h */,
 				B146542F2DC0B4E300C4D5B8 /* TitleMax.m */,
 			);
@@ -1830,8 +1825,8 @@
 				B14654862DC0B4E300C4D5B8 /* ElevenPath.m */,
 				B14654872DC0B4E300C4D5B8 /* ShareEmptyCell.h */,
 				B14654882DC0B4E300C4D5B8 /* ShareEmptyCell.m */,
-				B14654892DC0B4E300C4D5B8 /* ZZZUsrInfoData.h */,
-				B146548A2DC0B4E300C4D5B8 /* ZZZUsrInfoData.m */,
+				B14654892DC0B4E300C4D5B8 /* DataUsrInfoData.h */,
+				B146548A2DC0B4E300C4D5B8 /* DataUsrInfoData.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1962,7 +1957,7 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
-		B14654CB2DC0B4E300C4D5B8 /* Sections */ = {
+		B14654CB2DC0B4E300C4D5B8 /* ShankView */ = {
 			isa = PBXGroup;
 			children = (
 				B14653B32DC0B4E300C4D5B8 /* Common */,
@@ -1974,21 +1969,21 @@
 				B14654B62DC0B4E300C4D5B8 /* Team */,
 				B14654CA2DC0B4E300C4D5B8 /* Util */,
 			);
-			path = Sections;
+			path = ShankView;
 			sourceTree = "<group>";
 		};
 		B14654CC2DC0B4E300C4D5B8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				B146537D2DC0B4E300C4D5B8 /* Category */,
-				B14653952DC0B4E300C4D5B8 /* Global */,
-				B146539D2DC0B4E300C4D5B8 /* Protocols */,
-				B14654CB2DC0B4E300C4D5B8 /* Sections */,
+				B14653952DC0B4E300C4D5B8 /* CellVersion */,
+				B146539D2DC0B4E300C4D5B8 /* DataCellConfig */,
+				B14654CB2DC0B4E300C4D5B8 /* ShankView */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		B14654D12DC0B4E300C4D5B8 /* Manager */ = {
+		B14654D12DC0B4E300C4D5B8 /* LabelCell */ = {
 			isa = PBXGroup;
 			children = (
 				B14654CD2DC0B4E300C4D5B8 /* LabelCell.h */,
@@ -1996,16 +1991,16 @@
 				B14654CF2DC0B4E300C4D5B8 /* BeReader.h */,
 				B14654D02DC0B4E300C4D5B8 /* BeReader.m */,
 			);
-			path = Manager;
+			path = LabelCell;
 			sourceTree = "<group>";
 		};
-		B14654D22DC0B4E300C4D5B8 /* ChatClasses */ = {
+		B14654D22DC0B4E300C4D5B8 /* CaseConfig */ = {
 			isa = PBXGroup;
 			children = (
 				B14654CC2DC0B4E300C4D5B8 /* Classes */,
-				B14654D12DC0B4E300C4D5B8 /* Manager */,
+				B14654D12DC0B4E300C4D5B8 /* LabelCell */,
 			);
-			path = ChatClasses;
+			path = CaseConfig;
 			sourceTree = "<group>";
 		};
 		B14655032DC0B4E300C4D5B8 /* Category */ = {
@@ -2088,7 +2083,7 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		B14655152DC0B4E300C4D5B8 /* Delegate */ = {
+		B14655152DC0B4E300C4D5B8 /* BoardStatus */ = {
 			isa = PBXGroup;
 			children = (
 				B14655112DC0B4E300C4D5B8 /* BoardStatus.h */,
@@ -2096,7 +2091,7 @@
 				B14655132DC0B4E300C4D5B8 /* BringForthHandler.h */,
 				B14655142DC0B4E300C4D5B8 /* BringForthHandler.m */,
 			);
-			path = Delegate;
+			path = BoardStatus;
 			sourceTree = "<group>";
 		};
 		B14655262DC0B4E300C4D5B8 /* View */ = {
@@ -2122,16 +2117,16 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		B14655272DC0B4E300C4D5B8 /* Common */ = {
+		B14655272DC0B4E300C4D5B8 /* ImageViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B1465F022DC0C09100C4D5B8 /* CustomTabBar */,
+				B1465F022DC0C09100C4D5B8 /* CountView */,
 				B146550D2DC0B4E300C4D5B8 /* Addons */,
 				B14655102DC0B4E300C4D5B8 /* Controller */,
-				B14655152DC0B4E300C4D5B8 /* Delegate */,
+				B14655152DC0B4E300C4D5B8 /* BoardStatus */,
 				B14655262DC0B4E300C4D5B8 /* View */,
 			);
-			path = Common;
+			path = ImageViewController;
 			sourceTree = "<group>";
 		};
 		B146552E2DC0B4E300C4D5B8 /* LayoutConfig */ = {
@@ -2578,7 +2573,7 @@
 		B14655EF2DC0B4E300C4D5B8 /* COKeychain */ = {
 			isa = PBXGroup;
 			children = (
-				B146547E2DC0B4E300C4D5B8 /* ZZZCardDataSourceProtocol.h */,
+				B146547E2DC0B4E300C4D5B8 /* DataCardDataSourceProtocol.h */,
 				B14655EB2DC0B4E300C4D5B8 /* SAMKeychain.h */,
 				B14655EC2DC0B4E300C4D5B8 /* SAMKeychain.m */,
 				B14655ED2DC0B4E300C4D5B8 /* SAMKeychainQuery.h */,
@@ -3170,20 +3165,20 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
-		B146571F2DC0B4E300C4D5B8 /* Classes */ = {
+		B146571F2DC0B4E300C4D5B8 /* SumBarController */ = {
 			isa = PBXGroup;
 			children = (
 				B14655032DC0B4E300C4D5B8 /* Category */,
-				B14655272DC0B4E300C4D5B8 /* Common */,
+				B14655272DC0B4E300C4D5B8 /* ImageViewController */,
 				B146552E2DC0B4E300C4D5B8 /* LayoutConfig */,
 				B14655952DC0B4E300C4D5B8 /* Librarys */,
 				B14656FC2DC0B4E300C4D5B8 /* Sections */,
 				B146571E2DC0B4E300C4D5B8 /* Util */,
 			);
-			path = Classes;
+			path = SumBarController;
 			sourceTree = "<group>";
 		};
-		B14657262DC0B4E300C4D5B8 /* Rest */ = {
+		B14657262DC0B4E300C4D5B8 /* GoopView */ = {
 			isa = PBXGroup;
 			children = (
 				B14657202DC0B4E300C4D5B8 /* NSDictionaryAdditions.h */,
@@ -3193,24 +3188,23 @@
 				B14657242DC0B4E300C4D5B8 /* ContainerTitle.h */,
 				B14657252DC0B4E300C4D5B8 /* ContainerTitle.m */,
 			);
-			path = Rest;
+			path = GoopView;
 			sourceTree = "<group>";
 		};
 		B14657332DC0B4E300C4D5B8 /* Business */ = {
 			isa = PBXGroup;
 			children = (
-				B14653622DC0B4E300C4D5B8 /* BanCapture */,
-				B14654D22DC0B4E300C4D5B8 /* ChatClasses */,
-				B146571F2DC0B4E300C4D5B8 /* Classes */,
-				B14657262DC0B4E300C4D5B8 /* Rest */,
-				B14657272DC0B4E300C4D5B8 /* NTESGlobalMacro.h */,
+				B14653622DC0B4E300C4D5B8 /* DataExtensionHelper */,
+				B14654D22DC0B4E300C4D5B8 /* CaseConfig */,
+				B146571F2DC0B4E300C4D5B8 /* SumBarController */,
+				B14657262DC0B4E300C4D5B8 /* GoopView */,
 				B14657282DC0B4E300C4D5B8 /* VisualImageDisable.h */,
 				B14657292DC0B4E300C4D5B8 /* VisualImageDisable.m */,
 				B146572A2DC0B4E300C4D5B8 /* SenseRequest.h */,
 				B146572B2DC0B4E300C4D5B8 /* SenseRequest.m */,
 				B146572C2DC0B4E300C4D5B8 /* UIImage+View.h */,
 				B146572D2DC0B4E300C4D5B8 /* UIImage+View.m */,
-				B146572E2DC0B4E300C4D5B8 /* ZZZ-Prefix.pch */,
+				B146572E2DC0B4E300C4D5B8 /* Runner-Prefix.pch */,
 				B146572F2DC0B4E300C4D5B8 /* OnContainer.h */,
 				B14657302DC0B4E300C4D5B8 /* OnContainer.m */,
 				B1465F052DC0F58E00C4D5B8 /* OnManager.h */,
@@ -3244,7 +3238,7 @@
 			path = IBigRise;
 			sourceTree = "<group>";
 		};
-		B1465F022DC0C09100C4D5B8 /* CustomTabBar */ = {
+		B1465F022DC0C09100C4D5B8 /* CountView */ = {
 			isa = PBXGroup;
 			children = (
 				B1465EFE2DC0C09100C4D5B8 /* CountView.h */,
@@ -3252,7 +3246,7 @@
 				B1465F002DC0C09100C4D5B8 /* ImageViewController.h */,
 				B1465F012DC0C09100C4D5B8 /* ImageViewController.m */,
 			);
-			path = CustomTabBar;
+			path = CountView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -3402,8 +3396,8 @@
 				B146579B2DC0B4E300C4D5B8 /* UIView+Straddle.m in Sources */,
 				B146579C2DC0B4E300C4D5B8 /* UIViewNimKit.m in Sources */,
 				B146579D2DC0B4E300C4D5B8 /* YYAnimatedImageView+Board.m in Sources */,
-				B146579E2DC0B4E300C4D5B8 /* ZZZExtensionHelper.m in Sources */,
-				B146579F2DC0B4E300C4D5B8 /* ZZZCommonTableData.m in Sources */,
+				B146579E2DC0B4E300C4D5B8 /* DataExtensionHelper.m in Sources */,
+				B146579F2DC0B4E300C4D5B8 /* DataCommonTableData.m in Sources */,
 				B14657A02DC0B4E300C4D5B8 /* ColumnShould.m in Sources */,
 				B14657A12DC0B4E300C4D5B8 /* WithViewCell.m in Sources */,
 				B14657A22DC0B4E300C4D5B8 /* CaseConfig.m in Sources */,
@@ -3424,7 +3418,7 @@
 				B14657B12DC0B4E300C4D5B8 /* CheckedView.m in Sources */,
 				B14657B22DC0B4E300C4D5B8 /* ColorExamineView.m in Sources */,
 				B14657B32DC0B4E300C4D5B8 /* ContactEdgeViewCell.m in Sources */,
-				B14657B42DC0B4E300C4D5B8 /* ZZZGroupedUsrInfo.m in Sources */,
+				B14657B42DC0B4E300C4D5B8 /* DataGroupedUsrInfo.m in Sources */,
 				B14657B52DC0B4E300C4D5B8 /* EmptyStatus.m in Sources */,
 				B14657B62DC0B4E300C4D5B8 /* CommentView.m in Sources */,
 				B14657B72DC0B4E300C4D5B8 /* EdgeConfig.m in Sources */,
@@ -3453,7 +3447,7 @@
 				B14657CE2DC0B4E300C4D5B8 /* CollectionModel.m in Sources */,
 				B14657CF2DC0B4E300C4D5B8 /* GreenTingLanguage.m in Sources */,
 				B14657D02DC0B4E300C4D5B8 /* FrameShould.m in Sources */,
-				B14657D12DC0B4E300C4D5B8 /* ZZZBaseSessionContentConfig.m in Sources */,
+				B14657D12DC0B4E300C4D5B8 /* DataBaseSessionContentConfig.m in Sources */,
 				B14657D22DC0B4E300C4D5B8 /* DisableModel.m in Sources */,
 				B14657D32DC0B4E300C4D5B8 /* ChangeConfig.m in Sources */,
 				B14657D42DC0B4E300C4D5B8 /* Config.m in Sources */,
@@ -3515,7 +3509,7 @@
 				B146580A2DC0B4E300C4D5B8 /* WithQuantityerval.m in Sources */,
 				B146580B2DC0B4E300C4D5B8 /* ElevenPath.m in Sources */,
 				B146580C2DC0B4E300C4D5B8 /* ShareEmptyCell.m in Sources */,
-				B146580D2DC0B4E300C4D5B8 /* ZZZUsrInfoData.m in Sources */,
+				B146580D2DC0B4E300C4D5B8 /* DataUsrInfoData.m in Sources */,
 				B146580E2DC0B4E300C4D5B8 /* PathPinViewController.m in Sources */,
 				B146580F2DC0B4E300C4D5B8 /* ShareUpgradeViewController.m in Sources */,
 				B14658102DC0B4E300C4D5B8 /* DistanceKeyViewController.m in Sources */,
@@ -3833,7 +3827,7 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6VFR63B9QM;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/IBigRise/Business/ZZZ-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IBigRise/Business/Runner-Prefix.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IBigRise/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Wyntra;
@@ -3879,7 +3873,7 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6VFR63B9QM;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/IBigRise/Business/ZZZ-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IBigRise/Business/Runner-Prefix.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IBigRise/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Wyntra;

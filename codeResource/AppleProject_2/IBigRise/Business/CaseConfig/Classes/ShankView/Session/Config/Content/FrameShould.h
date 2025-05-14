@@ -1,0 +1,19 @@
+// __DEBUG__
+// __CLOSE_PRINT__
+//
+//  FrameShould.h
+// On
+//
+//  Created by amao on 9/15/15.
+//  Copyright (c) 2015 NetEase. All rights reserved.
+//
+
+// __M_A_C_R_O__
+//: #import "DataBaseSessionContentConfig.h"
+#import "DataBaseSessionContentConfig.h"
+
+//: @interface ZZZAudioContentConfig : NSObject<CCCSessionContentConfig>
+@interface FrameShould : NSObject<MaxSize>
+
+//: @end
+@end
