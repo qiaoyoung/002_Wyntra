@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  ZZZUsrInfoData.h
 //  NIM
@@ -6,13 +8,21 @@
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import "ZZZContactDefines.h"
 #import "ZZZContactDefines.h"
-@class ZZZKitInfo;
 
-@interface LemonUsrInfo : NSObject <NIMGroupMemberProtocol>
+//: @class ZZZKitInfo;
+@class MagnitudeCommentInfo;
 
-@property (nonatomic,strong) ZZZKitInfo *info;
+//: @interface LemonUsrInfo : NSObject <NIMGroupMemberProtocol>
+@interface ImpairmentInfo : NSObject <ModelValue>
 
-- (BOOL)isFriend;
+//: @property (nonatomic,strong) ZZZKitInfo *info;
+@property (nonatomic,strong) MagnitudeCommentInfo *info;
 
+//: - (BOOL)isFriend;
+- (BOOL)show;
+
+//: @end
 @end

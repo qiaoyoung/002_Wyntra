@@ -1,49 +1,72 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  ZZZInputProtocol.h
-// AppleProjectKit
+// On
 //
 //  Created by chris.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
 //
-
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-@class ZZZMediaItem;
+
+// __M_A_C_R_O__
+
+//: @class ZZZMediaItem;
+@class VagaryItem;
 
 
-@protocol NIMInputActionDelegate <NSObject>
+//: @protocol NIMInputActionDelegate <NSObject>
+@protocol DelegateDoing <NSObject>
 
+//: @optional
 @optional
-- (BOOL)onTapMediaItem:(ZZZMediaItem *)item;
+//: - (BOOL)onTapMediaItem:(ZZZMediaItem *)item;
+- (BOOL)cigaretteHolder:(VagaryItem *)item;
 
-- (void)onTextChanged:(id)sender;
+//: - (void)onTextChanged:(id)sender;
+- (void)started:(id)sender;
 
-- (void)onSendText:(NSString *)text
-           atUsers:(NSArray *)atUsers;
+//: - (void)onSendText:(NSString *)text
+- (void)viewUsers:(NSString *)text
+           //: atUsers:(NSArray *)atUsers;
+           should:(NSArray *)atUsers;
 
-- (void)onSelectChartlet:(NSString *)chartletId
-                 catalog:(NSString *)catalogId;
+//: - (void)onSelectChartlet:(NSString *)chartletId
+- (void)alongReplySend:(NSString *)chartletId
+                 //: catalog:(NSString *)catalogId;
+                 message:(NSString *)catalogId;
 
-- (void)onSelectEmoticon:(id)emoticon;
+//: - (void)onSelectEmoticon:(id)emoticon;
+- (void)enableThinkOf:(id)emoticon;
 
-- (void)onCancelRecording;
+//: - (void)onCancelRecording;
+- (void)cancelDay;
 
-- (void)onStopRecording;
+//: - (void)onStopRecording;
+- (void)recentIndex;
 
-- (void)onStartRecording;
+//: - (void)onStartRecording;
+- (void)boxBy;
 
-- (void)onTapMoreBtn:(id)sender;
+//: - (void)onTapMoreBtn:(id)sender;
+- (void)recording:(id)sender;
 
-- (void)onTapEmoticonBtn:(id)sender;
+//: - (void)onTapEmoticonBtn:(id)sender;
+- (void)ranging:(id)sender;
 
-- (void)onTapAudioBtn:(id)sender;
+//: - (void)onTapAudioBtn:(id)sender;
+- (void)endued:(id)sender;
 
-- (void)onTapAlbunBtn:(id)sender;
+//: - (void)onTapAlbunBtn:(id)sender;
+- (void)names:(id)sender;
 
-- (void)onTapCameraBtn:(id)sender;
+//: - (void)onTapCameraBtn:(id)sender;
+- (void)cameraing:(id)sender;
 
-- (void)didReplyCancelled;
+//: - (void)didReplyCancelled;
+- (void)theTextCancelled;
 
 
+//: @end
 @end
-
-
