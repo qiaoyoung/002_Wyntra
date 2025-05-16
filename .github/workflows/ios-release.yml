@@ -94,7 +94,7 @@ jobs:
 
       - name: Upload to App Store using altool
         env:
-          IPA_PATH: "build/ios/ipa/wyntra‌.ipa"
+          IPA_PATH: "build/ios/ipa/wyntra.ipa"
           APPLE_ID: "havefun20250228@outlook.com"
           APP_SPECIFIC_PASSWORD: "fuog-ugst-pvlz-sozg"
         run: |
