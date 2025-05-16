@@ -11,7 +11,7 @@
 //: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 //: #import "ZZZAppDelegate.h"
-#import "OnContainer.h"
+#import "AppDelegate.h"
 
 //: int main(int argc, char * argv[]) {
 int main(int argc, char * argv[]) {
@@ -21,7 +21,7 @@ int main(int argc, char * argv[]) {
     @autoreleasepool {
         // Setup code that might create autoreleased objects goes here.
         //: appDelegateClassName = NSStringFromClass([ZZZAppDelegate class]);
-        appDelegateClassName = NSStringFromClass([OnContainer class]);
+        appDelegateClassName = NSStringFromClass([AppDelegate class]);
     }
     //: return UIApplicationMain(argc, argv, nil, appDelegateClassName);
     return UIApplicationMain(argc, argv, nil, appDelegateClassName);

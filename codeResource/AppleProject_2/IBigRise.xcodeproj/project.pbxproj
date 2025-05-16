@@ -415,7 +415,7 @@
 		B14659242DC0B4E300C4D5B8 /* VisualImageDisable.m in Sources */ = {isa = PBXBuildFile; fileRef = B14657292DC0B4E300C4D5B8 /* VisualImageDisable.m */; };
 		B14659252DC0B4E300C4D5B8 /* SenseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B146572B2DC0B4E300C4D5B8 /* SenseRequest.m */; };
 		B14659262DC0B4E300C4D5B8 /* UIImage+View.m in Sources */ = {isa = PBXBuildFile; fileRef = B146572D2DC0B4E300C4D5B8 /* UIImage+View.m */; };
-		B14659272DC0B4E300C4D5B8 /* OnContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = B14657302DC0B4E300C4D5B8 /* OnContainer.m */; };
+		B14659272DC0B4E300C4D5B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B14657302DC0B4E300C4D5B8 /* AppDelegate.m */; };
 		B14659282DC0B4E300C4D5B8 /* LabelSure.m in Sources */ = {isa = PBXBuildFile; fileRef = B14657322DC0B4E300C4D5B8 /* LabelSure.m */; };
 		B14659292DC0B4E300C4D5B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B146576C2DC0B4E300C4D5B8 /* main.m */; };
 		B1465F032DC0C09100C4D5B8 /* CountView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1465EFF2DC0C09100C4D5B8 /* CountView.m */; };
@@ -1274,8 +1274,8 @@
 		B146572C2DC0B4E300C4D5B8 /* UIImage+View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+View.h"; sourceTree = "<group>"; };
 		B146572D2DC0B4E300C4D5B8 /* UIImage+View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+View.m"; sourceTree = "<group>"; };
 		B146572E2DC0B4E300C4D5B8 /* Runner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Prefix.pch"; sourceTree = "<group>"; };
-		B146572F2DC0B4E300C4D5B8 /* OnContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnContainer.h; sourceTree = "<group>"; };
-		B14657302DC0B4E300C4D5B8 /* OnContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnContainer.m; sourceTree = "<group>"; };
+		B146572F2DC0B4E300C4D5B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B14657302DC0B4E300C4D5B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B14657312DC0B4E300C4D5B8 /* LabelSure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelSure.h; sourceTree = "<group>"; };
 		B14657322DC0B4E300C4D5B8 /* LabelSure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelSure.m; sourceTree = "<group>"; };
 		B14657642DC0B4E300C4D5B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -3205,8 +3205,8 @@
 				B146572C2DC0B4E300C4D5B8 /* UIImage+View.h */,
 				B146572D2DC0B4E300C4D5B8 /* UIImage+View.m */,
 				B146572E2DC0B4E300C4D5B8 /* Runner-Prefix.pch */,
-				B146572F2DC0B4E300C4D5B8 /* OnContainer.h */,
-				B14657302DC0B4E300C4D5B8 /* OnContainer.m */,
+				B146572F2DC0B4E300C4D5B8 /* AppDelegate.h */,
+				B14657302DC0B4E300C4D5B8 /* AppDelegate.m */,
 				B1465F052DC0F58E00C4D5B8 /* OnManager.h */,
 				B1465F062DC0F58E00C4D5B8 /* OnManager.m */,
 				B1465F082DC1B83300C4D5B8 /* UIImage+Share.h */,
@@ -3793,7 +3793,7 @@
 				B14659242DC0B4E300C4D5B8 /* VisualImageDisable.m in Sources */,
 				B14659252DC0B4E300C4D5B8 /* SenseRequest.m in Sources */,
 				B14659262DC0B4E300C4D5B8 /* UIImage+View.m in Sources */,
-				B14659272DC0B4E300C4D5B8 /* OnContainer.m in Sources */,
+				B14659272DC0B4E300C4D5B8 /* AppDelegate.m in Sources */,
 				B14659282DC0B4E300C4D5B8 /* LabelSure.m in Sources */,
 				B14659292DC0B4E300C4D5B8 /* main.m in Sources */,
 			);

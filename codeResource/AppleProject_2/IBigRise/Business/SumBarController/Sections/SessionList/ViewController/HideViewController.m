@@ -999,7 +999,7 @@ Byte kStr_topData[] = {61, 30, 14, 5, 234, 111, 114, 114, 109, 116, 128, 119, 11
 - (void)onLogin:(NIMLoginStep)step {
 
     //: ((ZZZAppDelegate*)([UIApplication sharedApplication].delegate)).loginStep = step;
-    ((OnContainer*)([UIApplication sharedApplication].delegate)).loginStep = step;
+    ((AppDelegate*)([UIApplication sharedApplication].delegate)).loginStep = step;
 
     //: [super onLogin:step];
     [super onLogin:step];

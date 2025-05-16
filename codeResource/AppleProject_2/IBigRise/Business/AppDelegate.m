@@ -128,7 +128,7 @@ Byte kStr_sessionValue[] = {34, 21, 7, 29, 137, 54, 56, 115, 117, 116, 97, 116, 
 
 // __M_A_C_R_O__
 //: #import "ZZZAppDelegate.h"
-#import "OnContainer.h"
+#import "AppDelegate.h"
 //: #import "ZZZLoginViewController.h"
 #import "TextViewController.h"
 //: #import "UIView+Toast.h"
@@ -203,7 +203,7 @@ Byte kStr_sessionValue[] = {34, 21, 7, 29, 137, 54, 56, 115, 117, 116, 97, 116, 
 //: NSString *NTESNotificationLogout = @"NTESNotificationLogout";
 NSString *kConst_titleValue = @"NTESNotificationLogout";
 //: @interface ZZZAppDelegate ()<NIMLoginManagerDelegate>
-@interface OnContainer ()<NIMLoginManagerDelegate>
+@interface AppDelegate ()<NIMLoginManagerDelegate>
 
 //: @property (nonatomic,strong) NTESSDKConfigDelegate *sdkConfigDelegate;
 @property (nonatomic,strong) TitleShow *sdkConfigDelegate;
@@ -221,7 +221,7 @@ NSString *kConst_titleValue = @"NTESNotificationLogout";
 @end
 
 //: @implementation ZZZAppDelegate
-@implementation OnContainer
+@implementation AppDelegate
 
 //: -(void)addRootViewController {
 -(void)at {

@@ -1029,7 +1029,7 @@ IndependentDelegate>
     [self.view addSubview:self.header];
 
     //: NSInteger step = ((ZZZAppDelegate*)([UIApplication sharedApplication].delegate)).loginStep;
-    NSInteger step = ((OnContainer*)([UIApplication sharedApplication].delegate)).loginStep;
+    NSInteger step = ((AppDelegate*)([UIApplication sharedApplication].delegate)).loginStep;
     //: [self.header refreshWithType:ListHeaderTypeNetStauts value:@(step)];
     [self.header gradePointAverage:ListHeaderTypeNetStauts red:@(step)];
 }

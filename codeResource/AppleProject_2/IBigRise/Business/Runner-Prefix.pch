@@ -10,7 +10,7 @@
 #define NIMDemo_NIMDemo_Prefix_pch
 
 #ifdef __OBJC__
-#import "OnContainer.h"
+#import "AppDelegate.h"
 #import "LabelSure.h"
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>

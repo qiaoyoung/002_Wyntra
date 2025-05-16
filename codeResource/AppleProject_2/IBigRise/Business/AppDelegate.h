@@ -13,7 +13,7 @@
 #import <UIKit/UIKit.h>
 
 //: @interface ZZZAppDelegate : UIResponder <UIApplicationDelegate>
-@interface OnContainer : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 //: @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) UIWindow *window;

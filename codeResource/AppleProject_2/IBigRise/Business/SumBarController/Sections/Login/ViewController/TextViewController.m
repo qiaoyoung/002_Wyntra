@@ -236,7 +236,7 @@ Byte kStr_regulatoryContent[] = {54, 7, 42, 5, 186, 249, 28, 12, 28, 12, 28, 12,
 #import <CoreTelephony/CTCellularData.h>
  
 //: #import "ZZZAppDelegate.h"
-#import "OnContainer.h"
+#import "AppDelegate.h"
 //: #import "ZZZAutoLoginManager.h"
 #import "SuggestTing.h"
 //: #import "SNDevice.h"
@@ -372,7 +372,7 @@ Byte kStr_regulatoryContent[] = {54, 7, 42, 5, 186, 249, 28, 12, 28, 12, 28, 12,
                 //: [[NSNotificationCenter defaultCenter] postNotificationName:@"NTESNotificationLogout" object:nil];
                 [[NSNotificationCenter defaultCenter] postNotificationName:StringFromInvestigationData(kStr_shootSixValue) object:nil];
                 //: ZZZAppDelegate *delegate = (ZZZAppDelegate *)[UIApplication sharedApplication].delegate;
-                OnContainer *delegate = (OnContainer *)[UIApplication sharedApplication].delegate;
+                AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
                 //: if (delegate.deviceToken) {
                 if (delegate.deviceToken) {
                     //: [[NIMSDK sharedSDK] updateApnsToken:delegate.deviceToken

@@ -93,7 +93,7 @@ Byte kStr_topWithAtValue[] = {62, 11, 10, 146, 20, 94, 77, 34, 86, 251, 121, 109
 //: #import "NTESMainTabController.h"
 #import "SumBarController.h"
 //: #import "ZZZAppDelegate.h"
-#import "OnContainer.h"
+#import "AppDelegate.h"
 //: #import "NTESSessionListViewController.h"
 #import "HideViewController.h"
 //: #import "UIImage+NTESColor.h"
@@ -162,7 +162,7 @@ typedef NS_ENUM(NSInteger,NTESMainTabType) {
 //: + (instancetype)instance{
 + (instancetype)displayName{
     //: ZZZAppDelegate *delegete = (ZZZAppDelegate *)[UIApplication sharedApplication].delegate;
-    OnContainer *delegete = (OnContainer *)[UIApplication sharedApplication].delegate;
+    AppDelegate *delegete = (AppDelegate *)[UIApplication sharedApplication].delegate;
     //: UIViewController *vc = delegete.window.rootViewController;
     UIViewController *vc = delegete.window.rootViewController;
     //: if ([vc isKindOfClass:[NTESMainTabController class]]) {

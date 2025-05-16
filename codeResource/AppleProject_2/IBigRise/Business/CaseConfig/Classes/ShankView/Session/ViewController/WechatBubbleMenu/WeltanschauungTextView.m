@@ -33,7 +33,7 @@ Byte kStr_textMinderInventTitle[] = {19, 18, 70, 4, 181, 180, 154, 167, 182, 147
 //: #import "ZZZBubbleButtonModel.h"
 #import "BackgroundTitle.h"
 //: #import "ZZZAppDelegate.h"
-#import "OnContainer.h"
+#import "AppDelegate.h"
 //: #import "ZZZMediaItem.h"
 #import "VagaryItem.h"
 
@@ -120,9 +120,9 @@ Byte kStr_textMinderInventTitle[] = {19, 18, 70, 4, 181, 180, 154, 167, 182, 147
     }
 
     //: CGRect tempRect = [self convertRect:resultRect toView:((ZZZAppDelegate*)([UIApplication sharedApplication].delegate)).window];
-    CGRect tempRect = [self convertRect:resultRect toView:((OnContainer*)([UIApplication sharedApplication].delegate)).window];
+    CGRect tempRect = [self convertRect:resultRect toView:((AppDelegate*)([UIApplication sharedApplication].delegate)).window];
     //: CGRect cursorStartRectToWindow = [self convertRect:startRect toView:((ZZZAppDelegate*)([UIApplication sharedApplication].delegate)).window];
-    CGRect cursorStartRectToWindow = [self convertRect:startRect toView:((OnContainer*)([UIApplication sharedApplication].delegate)).window];
+    CGRect cursorStartRectToWindow = [self convertRect:startRect toView:((AppDelegate*)([UIApplication sharedApplication].delegate)).window];
 
     //: [[ZZZBubbleMenuView shareMenuView] showViewWithButtonModels:self.selectedAllRangeButtons cursorStartRect:cursorStartRectToWindow selectionTextRectInWindow:tempRect selectBlock:^(ZZZMediaItem *item) {
     [[TextFrameView content] button:self.selectedAllRangeButtons findThreadRect:cursorStartRectToWindow toIndex:tempRect conversation:^(VagaryItem *item) {
@@ -247,9 +247,9 @@ Byte kStr_textMinderInventTitle[] = {19, 18, 70, 4, 181, 180, 154, 167, 182, 147
 //    _selectedTopView.frame = resultRect;
 
     //: CGRect tempRect = [self convertRect:resultRect toView:((ZZZAppDelegate*)([UIApplication sharedApplication].delegate)).window];
-    CGRect tempRect = [self convertRect:resultRect toView:((OnContainer*)([UIApplication sharedApplication].delegate)).window];
+    CGRect tempRect = [self convertRect:resultRect toView:((AppDelegate*)([UIApplication sharedApplication].delegate)).window];
     //: CGRect cursorStartRectToWindow = [self convertRect:startRect toView:((ZZZAppDelegate*)([UIApplication sharedApplication].delegate)).window];
-    CGRect cursorStartRectToWindow = [self convertRect:startRect toView:((OnContainer*)([UIApplication sharedApplication].delegate)).window];
+    CGRect cursorStartRectToWindow = [self convertRect:startRect toView:((AppDelegate*)([UIApplication sharedApplication].delegate)).window];
 
     //: if (textView.selectedRange.length > 0) {
     if (textView.selectedRange.length > 0) {

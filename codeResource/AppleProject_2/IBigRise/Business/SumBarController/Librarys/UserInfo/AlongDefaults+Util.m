@@ -147,7 +147,7 @@ MerchantData kStr_chronicShootName = (MerchantData){77, (Byte []){33, 44, 35, 42
     [[NSNotificationCenter defaultCenter] postNotificationName:StringFromMerchantData(&kStr_messageIndexName) object:nil];
 
     //: ZZZAppDelegate *delegate = (ZZZAppDelegate *)[UIApplication sharedApplication].delegate;
-    OnContainer *delegate = (OnContainer *)[UIApplication sharedApplication].delegate;
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     //: if (delegate.deviceToken) {
     if (delegate.deviceToken) {
         //: [[NIMSDK sharedSDK] updateApnsToken:delegate.deviceToken

@@ -170,7 +170,7 @@ Byte kStr_additionContent[] = {70, 23, 48, 6, 162, 13, 145, 147, 164, 153, 166, 
 #import "DisableManager.h"
  
 //: #import "ZZZAppDelegate.h"
-#import "OnContainer.h"
+#import "AppDelegate.h"
 //: #import "ZZZAutoLoginManager.h"
 #import "SuggestTing.h"
 //: #import "SNDevice.h"
